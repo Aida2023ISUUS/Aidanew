@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar open">
+            <img src="public/0b721de7ab4c9b948d95056edb1e15ca.jpg" width=60 height=60 alt="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="audio.html">Music</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li class="work"><a href="#">Work &bigtriangledown;</a>
+                    <ul>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="math.html">Math</a></li>
+                        <li><a href="api.html">API</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div><a href="https://www.ku.edu.kz">Entry</a> 
+                <div  class="burger" id="burger2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>        
+</header>
+
+<main class="form"> <!-- Основная область контента с классом "form" для стилизации -->
+    <form> <!-- Начало элемента формы -->
+        <fieldset> <!-- Группировка связанных элементов в поле с рамкой -->
+            <legend>Личная информация</legend> <!-- Подпись для группы элементов -->
+            <label for="name">Имя</label> <!-- Метка для поля ввода "Имя" -->
+            <input id="name" name="new_name" placeholder="Имя" type="text" required/> <!-- Поле ввода имени с подсказкой и обязательным заполнением -->
+            <label for="surname">Фамилия</label> <!-- Метка для поля ввода "Фамилия" -->
+            <input id="surname" name="new_surname" placeholder="Фамилия" type="text" required/> <!-- Поле ввода фамилии с подсказкой и обязательным заполнением -->
+            <label for="age">Возраст</label> <!-- Метка для поля ввода "Возраст" -->
+            <input id="age" name="new_age" placeholder="18" type="number" required/> <!-- Поле ввода возраста с подсказкой и обязательным заполнением -->
+            <label for="adress">Адрес</label> <!-- Метка для поля ввода "Адрес" -->
+            <input id="adress" name="new_adress" type="text"/> <!-- Поле ввода адреса -->
+            <label for="phone">Телефон</label> <!-- Метка для поля ввода "Телефон" -->
+            <input id="phone" name="new_phone" type="tel"/> <!-- Поле ввода номера телефона -->
+            <label for="email">Электронная почта</label> <!-- Метка для поля ввода "Электронная почта" -->
+            <input id="email" name="new_email" type="email"/> <!-- Поле ввода электронной почты -->
+        </fieldset>    
+ 
+        <fieldset> <!-- Группировка связанных элементов в поле с рамкой -->
+            <legend>Образовательная информация</legend> <!-- Подпись для группы элементов -->
+            <label for="faculty">Факультет</label> <!-- Метка для поля ввода "Факультет" -->
+            <input id="faculty" name="new_faculty" type="text"/> <!-- Поле ввода факультета -->
+            <label for="group">Группа</label> <!-- Метка для поля ввода "Группа" -->
+            <input id="grouop" name="new_group" type="text" required/> <!-- Поле ввода группы с обязательным заполнением -->
+            <label for="order">Дата приказа о зачислении</label> <!-- Метка для поля ввода "Дата приказа о зачислении" -->
+            <input id="order" name="new_order" type="date"/> <!-- Поле ввода даты приказа о зачислении -->
+        </fieldset>
+        <button type="submit">Отправить</button> <!-- Кнопка отправки формы -->
+    </form>
+ </main>
+ 
+ <footer>
+    <a href="https://youtube.com" target="_blank"><img src="youtube.png" width = 60 height = 60></a>
+    <a href="https://instagram.com" target="_blank"><img src="instagram.jpg" width = 60 height = 60></a>
+    <a href="https://tiktok.com" target="_blank"><img src="tiktok.png" width = 60 height = 60></a>
+
+</footer>
+    <script src = "script.js"></script>
+</body>
+</html>
